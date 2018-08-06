@@ -1,0 +1,66 @@
+body {
+	background-color: #FFF;
+	font-family: 'Cuprum', sans-serif;
+}
+
+#tasiyici {
+	margin: 13px auto;
+	width: 100%;
+	min-width: 720px;
+}
+
+.slider {
+	width: 100%;
+	height: auto;
+	border: 1px solid #C9C9C9;
+	overflow: hidden;
+}
+
+.slider li {
+	list-style:none;
+	float: left;
+	padding-left: 10px;
+}
+
+.page {
+	float: right;
+	padding-right: 24%;
+	padding-top: 1%;
+}
+
+.page a {
+	color: #FFF;
+	font-size: 22px;
+	display: block;
+	height: 30px;
+	padding: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #4074E2;
+	border: 1px solid #3443AF;
+	float: left;
+	cursor: pointer;
+}
+
+.page a.jp-current {
+	background-color: #0F0F0F;
+	border: 1px solid #3443AF;
+}
+
+h1,h2,h3 {
+	text-align: center;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 50px;
+	color: #1B3AD8;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
